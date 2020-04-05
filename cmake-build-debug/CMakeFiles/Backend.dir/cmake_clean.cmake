@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Backend.dir/character.cpp.obj"
   "CMakeFiles/Backend.dir/characterList.cpp.obj"
   "CMakeFiles/Backend.dir/main.cpp.obj"
+  "CMakeFiles/Backend.dir/simulation.cpp.obj"
 )
 
 # Per-language clean rules from dependency scanning.

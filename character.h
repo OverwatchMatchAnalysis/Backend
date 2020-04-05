@@ -15,12 +15,13 @@ class character {
 
 public:
     character();
+    character(string, vector<characterList>);
     double getEnemyMatchup(string);
     double getFriendlyMatchup(string);
     string name;
 
 private:
-    vector<characterList> matchup;
+    vector<characterList> matchups;
     characterList findMatchup(string);
 };
 

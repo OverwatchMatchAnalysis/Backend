@@ -99,6 +99,12 @@
 		<Unit filename="E:/School/CS 4345/Project/Backend/main.cpp">
 			<Option target="Backend"/>
 		</Unit>
+		<Unit filename="E:/School/CS 4345/Project/Backend/simulation.cpp">
+			<Option target="Backend"/>
+		</Unit>
+		<Unit filename="E:/School/CS 4345/Project/Backend/simulation.h">
+			<Option target="Backend"/>
+		</Unit>
 		<Unit filename="E:/School/CS 4345/Project/Backend/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

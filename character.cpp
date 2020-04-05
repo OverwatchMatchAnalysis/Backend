@@ -3,14 +3,18 @@
 //
 #include "character.h"
 
+character::character(string name, vector<characterList> cl) {
+    this->matchups = cl;
+    this->name = name;
+}
+
 characterList character::findMatchup(string name) {
-    for (int i = 0; i < this->matchup.size(); i++) {
-        if (this->matchup[i].getName() == name) {
-            return this->matchup[i];
+    for (int i = 0; i < this->matchups.size(); i++) {
+        if (this->matchups[i].getName() == name) {
+            return this->matchups[i];
         }
     }
 }
-
 
 double character::getEnemyMatchup(string name) {
     return findMatchup(name).getEnemyValue();
