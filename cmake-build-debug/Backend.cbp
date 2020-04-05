@@ -24,13 +24,14 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\include"/>
+					<Add directory="E:\ProgramData\Microsoft\C++\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="E:\ProgramData\Microsoft\C++\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f &quot;E:\School\CS 4345\Project\Backend\cmake-build-debug\Makefile&quot; VERBOSE=1 Backend"/>
@@ -46,13 +47,14 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.14.26428\include"/>
+					<Add directory="E:\ProgramData\Microsoft\C++\VC\Tools\MSVC\14.16.27023\ATLMFC\include"/>
+					<Add directory="E:\ProgramData\Microsoft\C++\VC\Tools\MSVC\14.16.27023\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"/>
-					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="nmake /NOLOGO /f &quot;E:\School\CS 4345\Project\Backend\cmake-build-debug\Makefile&quot; VERBOSE=1 Backend/fast"/>
