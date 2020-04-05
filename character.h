@@ -6,13 +6,18 @@
 #define BACKEND_CHARACTER_H
 
 #include <vector>
+#include <String>
+
+using namespace std;
 
 class character {
-    string name;
-    vector matchup;
+    character();
 
-    void getEnemyMatchup();
-    void getFriendlyMatchup();
+    string name;
+    vector<> matchup;
+
+    double getEnemyMatchup(String);
+    double getFriendlyMatchup(String);
 };
 
 #endif //BACKEND_CHARACTER_H
