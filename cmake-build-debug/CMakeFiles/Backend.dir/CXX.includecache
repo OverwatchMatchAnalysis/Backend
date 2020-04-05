@@ -6,7 +6,21 @@
 
 #IncludeRegexTransform: 
 
-E:/School/CS 4345/Project/Backend/main.cpp
-iostream
+E:/School/CS 4345/Project/Backend/character.cpp
+character.h
+E:/School/CS 4345/Project/Backend/character.h
+
+E:/School/CS 4345/Project/Backend/character.h
+vector
+-
+String
+-
+characterList.h
+E:/School/CS 4345/Project/Backend/characterList.h
+
+E:/School/CS 4345/Project/Backend/characterList.h
+string
+-
+vector
 -
 

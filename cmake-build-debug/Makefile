@@ -124,6 +124,60 @@ Backend\fast:
 	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\build
 .PHONY : Backend\fast
 
+character.obj: character.cpp.obj
+
+.PHONY : character.obj
+
+# target to build an object file
+character.cpp.obj:
+	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\character.cpp.obj
+.PHONY : character.cpp.obj
+
+character.i: character.cpp.i
+
+.PHONY : character.i
+
+# target to preprocess a source file
+character.cpp.i:
+	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\character.cpp.i
+.PHONY : character.cpp.i
+
+character.s: character.cpp.s
+
+.PHONY : character.s
+
+# target to generate assembly for a file
+character.cpp.s:
+	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\character.cpp.s
+.PHONY : character.cpp.s
+
+characterList.obj: characterList.cpp.obj
+
+.PHONY : characterList.obj
+
+# target to build an object file
+characterList.cpp.obj:
+	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\characterList.cpp.obj
+.PHONY : characterList.cpp.obj
+
+characterList.i: characterList.cpp.i
+
+.PHONY : characterList.i
+
+# target to preprocess a source file
+characterList.cpp.i:
+	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\characterList.cpp.i
+.PHONY : characterList.cpp.i
+
+characterList.s: characterList.cpp.s
+
+.PHONY : characterList.s
+
+# target to generate assembly for a file
+characterList.cpp.s:
+	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\characterList.cpp.s
+.PHONY : characterList.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +214,12 @@ help:
 	@echo ... Backend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... character.obj
+	@echo ... character.i
+	@echo ... character.s
+	@echo ... characterList.obj
+	@echo ... characterList.i
+	@echo ... characterList.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

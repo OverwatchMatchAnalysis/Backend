@@ -4,4 +4,6 @@ project(Backend)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Backend
-        main.cpp)
+        main.cpp
+        character.cpp
+        characterList.cpp)

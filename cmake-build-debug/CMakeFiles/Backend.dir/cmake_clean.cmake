@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "Backend.exe.manifest"
   "Backend.lib"
   "Backend.pdb"
+  "CMakeFiles/Backend.dir/character.cpp.obj"
+  "CMakeFiles/Backend.dir/characterList.cpp.obj"
   "CMakeFiles/Backend.dir/main.cpp.obj"
 )
 

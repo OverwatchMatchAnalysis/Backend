@@ -7,17 +7,21 @@
 
 #include <vector>
 #include <String>
+#include "characterList.h"
 
 using namespace std;
 
 class character {
+
+public:
     character();
-
+    double getEnemyMatchup(string);
+    double getFriendlyMatchup(string);
     string name;
-    vector<> matchup;
 
-    double getEnemyMatchup(String);
-    double getFriendlyMatchup(String);
+private:
+    vector<characterList> matchup;
+    characterList findMatchup(string);
 };
 
 #endif //BACKEND_CHARACTER_H
