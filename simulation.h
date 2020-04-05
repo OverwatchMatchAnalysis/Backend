@@ -5,10 +5,18 @@
 #ifndef BACKEND_SIMULATION_H
 #define BACKEND_SIMULATION_H
 
+#include <vector>
 #include "character.h"
 
 class simulation {
-    vector<character> characters;
+public:
+    void inputFriendly(character);
+    void inputEnemy(character);
+    void calculateBestCharacter();
+
+private:
+    vector<character> friendlyTeam;
+    vector<character> enemyTeam;
 
 };
 

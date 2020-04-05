@@ -3,3 +3,15 @@
 //
 
 #include "simulation.h"
+
+void simulation::inputFriendly(character c) {
+    this->friendlyTeam.push_back(c);
+}
+
+void simulation::inputEnemy(character c) {
+    this->enemyTeam.push_back(c);
+}
+
+void simulation::calculateBestCharacter() {
+    
+}
