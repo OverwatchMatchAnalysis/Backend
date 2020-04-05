@@ -5,5 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Backend
         main.cpp
-        character.cpp
-        characterList.cpp simulation.cpp simulation.h)
+        character.cpp character.h
+        characterList.cpp characterList.h
+        simulation.cpp simulation.h)

@@ -10,3 +10,8 @@ CMakeFiles\Backend.dir\characterList.cpp.obj: ..\characterList.h
 
 CMakeFiles\Backend.dir\main.cpp.obj: ..\main.cpp
 
+CMakeFiles\Backend.dir\simulation.cpp.obj: ..\character.h
+CMakeFiles\Backend.dir\simulation.cpp.obj: ..\characterList.h
+CMakeFiles\Backend.dir\simulation.cpp.obj: ..\simulation.cpp
+CMakeFiles\Backend.dir\simulation.cpp.obj: ..\simulation.h
+
