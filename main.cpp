@@ -40,7 +40,7 @@ void parseFile(string fileName, vector<characterList>& list) {
 int main() {
     simulation s;
     vector<characterList> tracerList;
-    parseFile("heroData/Tracer.csv", tracerList);
+    parseFile("..\\heroData\\Tracer.csv", tracerList);
     character tracer("tracer", "damage", tracerList);
     s.inputFriendly(tracer);
     s.printTeams();
