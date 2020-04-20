@@ -8,6 +8,7 @@ class characterList
 {
     public:
         characterList();
+        ~characterList();
         void setName(std::string name);
         std::string getName();
         void setEnemyValue(double value);

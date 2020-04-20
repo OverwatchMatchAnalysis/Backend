@@ -20,9 +20,9 @@ public:
     double getFriendlyMatchup(string);
     string role;
     string name;
+    vector<characterList> matchups;
 
 private:
-    vector<characterList> matchups;
     characterList findMatchup(string);
 };
 

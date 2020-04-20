@@ -8,6 +8,9 @@ CMakeFiles\Backend.dir\character.cpp.obj: ..\characterList.h
 CMakeFiles\Backend.dir\characterList.cpp.obj: ..\characterList.cpp
 CMakeFiles\Backend.dir\characterList.cpp.obj: ..\characterList.h
 
+CMakeFiles\Backend.dir\heroParser.cpp.obj: ..\heroParser.cpp
+CMakeFiles\Backend.dir\heroParser.cpp.obj: ..\heroParser.h
+
 CMakeFiles\Backend.dir\main.cpp.obj: ..\character.h
 CMakeFiles\Backend.dir\main.cpp.obj: ..\characterList.h
 CMakeFiles\Backend.dir\main.cpp.obj: ..\main.cpp

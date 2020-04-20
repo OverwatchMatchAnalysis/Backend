@@ -96,6 +96,12 @@
 		<Unit filename="E:/School/CS 4345/Project/Backend/characterList.h">
 			<Option target="Backend"/>
 		</Unit>
+		<Unit filename="E:/School/CS 4345/Project/Backend/heroParser.cpp">
+			<Option target="Backend"/>
+		</Unit>
+		<Unit filename="E:/School/CS 4345/Project/Backend/heroParser.h">
+			<Option target="Backend"/>
+		</Unit>
 		<Unit filename="E:/School/CS 4345/Project/Backend/main.cpp">
 			<Option target="Backend"/>
 		</Unit>

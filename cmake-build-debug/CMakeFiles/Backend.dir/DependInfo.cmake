@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/School/CS 4345/Project/Backend/character.cpp" "E:/School/CS 4345/Project/Backend/cmake-build-debug/CMakeFiles/Backend.dir/character.cpp.obj"
   "E:/School/CS 4345/Project/Backend/characterList.cpp" "E:/School/CS 4345/Project/Backend/cmake-build-debug/CMakeFiles/Backend.dir/characterList.cpp.obj"
+  "E:/School/CS 4345/Project/Backend/heroParser.cpp" "E:/School/CS 4345/Project/Backend/cmake-build-debug/CMakeFiles/Backend.dir/heroParser.cpp.obj"
   "E:/School/CS 4345/Project/Backend/main.cpp" "E:/School/CS 4345/Project/Backend/cmake-build-debug/CMakeFiles/Backend.dir/main.cpp.obj"
   "E:/School/CS 4345/Project/Backend/simulation.cpp" "E:/School/CS 4345/Project/Backend/cmake-build-debug/CMakeFiles/Backend.dir/simulation.cpp.obj"
   )

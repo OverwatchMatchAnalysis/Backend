@@ -178,6 +178,33 @@ characterList.cpp.s:
 	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\characterList.cpp.s
 .PHONY : characterList.cpp.s
 
+heroParser.obj: heroParser.cpp.obj
+
+.PHONY : heroParser.obj
+
+# target to build an object file
+heroParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\heroParser.cpp.obj
+.PHONY : heroParser.cpp.obj
+
+heroParser.i: heroParser.cpp.i
+
+.PHONY : heroParser.i
+
+# target to preprocess a source file
+heroParser.cpp.i:
+	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\heroParser.cpp.i
+.PHONY : heroParser.cpp.i
+
+heroParser.s: heroParser.cpp.s
+
+.PHONY : heroParser.s
+
+# target to generate assembly for a file
+heroParser.cpp.s:
+	$(MAKE) -f CMakeFiles\Backend.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Backend.dir\heroParser.cpp.s
+.PHONY : heroParser.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -247,6 +274,9 @@ help:
 	@echo ... characterList.obj
 	@echo ... characterList.i
 	@echo ... characterList.s
+	@echo ... heroParser.obj
+	@echo ... heroParser.i
+	@echo ... heroParser.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

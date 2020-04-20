@@ -7,4 +7,4 @@ add_executable(Backend
         main.cpp
         character.cpp character.h
         characterList.cpp characterList.h
-        simulation.cpp simulation.h)
+        simulation.cpp simulation.h heroParser.cpp heroParser.h)

@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "Backend.pdb"
   "CMakeFiles/Backend.dir/character.cpp.obj"
   "CMakeFiles/Backend.dir/characterList.cpp.obj"
+  "CMakeFiles/Backend.dir/heroParser.cpp.obj"
   "CMakeFiles/Backend.dir/main.cpp.obj"
   "CMakeFiles/Backend.dir/simulation.cpp.obj"
 )

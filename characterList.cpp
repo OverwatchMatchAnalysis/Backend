@@ -9,6 +9,11 @@ characterList::characterList()
 {
 
 }
+characterList::~characterList() {
+    this->setName("");
+    this->setFriendlyValue(0);
+    this->setEnemyValue(0);
+}
 
 void characterList::setName(string name)
 {
