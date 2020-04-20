@@ -45,5 +45,6 @@ int main() {
     cout << tracerList[1].getName() << endl;
     s.inputFriendly(tracer);
     s.printTeams();
+    //cout << "widowmaker: " << tracer.getEnemyMatchup("Widowmaker");
     return 0;
 }
