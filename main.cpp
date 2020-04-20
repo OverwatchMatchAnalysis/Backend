@@ -17,7 +17,6 @@ int main() {
     vector<characterList> tracerList;
     parser.parseFile("..//heroData//Tracer.csv", tracerList);
     character tracer("tracer", "damage", tracerList);
-    cout << tracerList[1].getName() << endl;
     s.inputFriendly(tracer);
     s.printTeams();
     //cout << "widowmaker: " << tracer.getEnemyMatchup("Widowmaker");

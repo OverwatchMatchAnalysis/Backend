@@ -6,6 +6,8 @@
 #include <sstream>
 using namespace std;
 
+//Line format is: name, team value, enemy value
+
 void heroParser::parseFile(string fileName, vector<characterList> &list)
 {
     ifstream inputFile;
