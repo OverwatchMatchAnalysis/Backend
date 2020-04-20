@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-E:/School/CS 4345/Project/Backend/character.cpp
-character.h
-E:/School/CS 4345/Project/Backend/character.h
-
 E:/School/CS 4345/Project/Backend/character.h
 vector
 -
@@ -29,6 +25,10 @@ simulation.h
 E:/School/CS 4345/Project/Backend/simulation.h
 
 E:/School/CS 4345/Project/Backend/simulation.h
+vector
+-
+iostream
+-
 character.h
 E:/School/CS 4345/Project/Backend/character.h
 

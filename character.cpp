@@ -3,9 +3,10 @@
 //
 #include "character.h"
 
-character::character(string name, vector<characterList> cl) {
+character::character(string name, string role, vector<characterList> cl) {
     this->matchups = cl;
     this->name = name;
+    this->role = role;
 }
 
 characterList character::findMatchup(string name) {
@@ -22,5 +23,8 @@ double character::getEnemyMatchup(string name) {
 
 double character::getFriendlyMatchup(string name) {
     return findMatchup(name).getFriendlyValue();
+}
+
+character::character() {
 
 }

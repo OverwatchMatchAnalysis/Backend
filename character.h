@@ -15,9 +15,10 @@ class character {
 
 public:
     character();
-    character(string, vector<characterList>);
+    character(string, string role, vector<characterList>);
     double getEnemyMatchup(string);
     double getFriendlyMatchup(string);
+    string role;
     string name;
 
 private:
