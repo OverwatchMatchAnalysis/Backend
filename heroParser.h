@@ -9,10 +9,12 @@
 #include <vector>
 #include "characterList.h"
 
+using namespace std;
+
 class heroParser
 {
     public:
-        void parseFile(std::string fileName, std::vector<characterList>& list);
+        void parseFile(string fileName, vector<characterList>& list);
 };
 
 
