@@ -5,9 +5,14 @@
 #ifndef BACKEND_HEROPARSER_H
 #define BACKEND_HEROPARSER_H
 
+#include <fstream>
+#include <vector>
+#include "characterList.h"
 
-class heroParser {
-
+class heroParser
+{
+    public:
+        void parseFile(std::string fileName, std::vector<characterList>& list);
 };
 
 
