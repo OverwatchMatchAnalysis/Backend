@@ -7,7 +7,7 @@
 class characterList
 {
     public:
-        characterList();
+        characterList(std::string name, double teamVal, double enemyVal);
         ~characterList();
         void setName(std::string name);
         std::string getName();

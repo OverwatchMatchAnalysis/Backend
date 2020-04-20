@@ -12,36 +12,37 @@
 
 using namespace std;
 
-void parseFile(string fileName, vector<characterList>& list) {
+void parseFile(string fileName, vector<characterList>& list)
+{
     ifstream inputFile;
     inputFile.open(fileName);
     string hero;
-    getline(inputFile, hero);
-    string currentLine;
-    while (!(inputFile.eof())) {
-        characterList tempList;
-        getline(inputFile, currentLine);
-        stringstream inputStream(currentLine);
-        vector<string> tempLine;
-        while(inputStream.good()) {
-            string substring;
-            getline(inputStream, substring, ',');
-            tempLine.push_back(substring);
+    getline(inputFile, hero); //Get name of hero
+    string line, lineItem;
+    vector<string> row;
+    while(!inputFile.eof())
+    {
+        line.clear(); //Clear line string and row vector so no chance of error
+        row.clear();
+        getline(inputFile, line); //Read in a row
+        stringstream s(line);
+        while(getline(s, lineItem, ',')) //Separate each item in the line and add to row vector
+        {
+            row.push_back(lineItem);
         }
-        if (tempLine.size() == 2) {
-            tempList.setName(tempLine[0]);
-            tempList.setEnemyValue(stod(tempLine[1]));
-            tempList.setFriendlyValue(stod(tempLine[2]));
-            list.push_back(tempList);
-        }
+
+        characterList tempList(row[0], stod(row[1]), stod(row[2]));
+        list.push_back(tempList);
     }
 }
+
 
 int main() {
     simulation s;
     vector<characterList> tracerList;
     parseFile("..\\heroData\\Tracer.csv", tracerList);
     character tracer("tracer", "damage", tracerList);
+    cout << tracerList[1].getName() << endl;
     s.inputFriendly(tracer);
     s.printTeams();
     return 0;

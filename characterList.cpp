@@ -5,9 +5,11 @@
 #include "characterList.h"
 using namespace std;
 
-characterList::characterList()
+characterList::characterList(string name, double teamVal, double enemyVal)
 {
-
+    this->characterName = name;
+    this->friendlyValue = teamVal;
+    this->enemyValue = enemyVal;
 }
 characterList::~characterList() {
     this->setName("");
