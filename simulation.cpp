@@ -39,6 +39,7 @@ void simulation::printTeams() {
     cout << "\nEnemy Team: ";
     for (int i = 0; i < this->enemyTeam.size(); i++)
         cout << this->enemyTeam[i].name << " ,";
+    cout << endl;
 }
 
 void simulation::calculateBestCharacter() {

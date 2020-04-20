@@ -28,10 +28,11 @@ void parseFile(string fileName, vector<characterList>& list) {
             getline(inputStream, substring, ',');
             tempLine.push_back(substring);
         }
-        if (tempLine.size() == 2) {
+        if (tempLine.size() > 2) {
             tempList.setName(tempLine[0]);
             tempList.setEnemyValue(stod(tempLine[1]));
             tempList.setFriendlyValue(stod(tempLine[2]));
+            //cout << tempLine[0] << " " << tempLine[1] << " " << tempLine[2] << endl;
             list.push_back(tempList);
         }
     }
@@ -44,5 +45,6 @@ int main() {
     character tracer("tracer", "damage", tracerList);
     s.inputFriendly(tracer);
     s.printTeams();
+    //cout << "widowmaker: " << tracer.getEnemyMatchup("Widowmaker");
     return 0;
 }

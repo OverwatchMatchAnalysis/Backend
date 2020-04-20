@@ -7,6 +7,7 @@
 
 #include <vector>
 #include <String>
+#include <iostream>
 #include "characterList.h"
 
 using namespace std;
