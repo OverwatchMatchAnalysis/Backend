@@ -15,10 +15,10 @@ int main() {
     simulation s;
     heroParser parser;
     vector<characterList> tracerList;
-    parser.parseFile("..//heroData//Tracer.csv", tracerList);
-    character tracer("tracer", "damage", tracerList);
+    string role, name = "";
+    parser.parseFile("..//heroData//Tracer.csv", tracerList, name, role);
+    character tracer(name, role, tracerList);
     s.inputFriendly(tracer);
     s.printTeams();
-    //cout << "widowmaker: " << tracer.getEnemyMatchup("Widowmaker");
     return 0;
 }

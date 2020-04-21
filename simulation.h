@@ -11,6 +11,7 @@
 
 class simulation {
 public:
+    simulation();
     void inputFriendly(character);
     void inputEnemy(character);
     void calculateBestCharacter();
@@ -21,6 +22,9 @@ private:
     float calulateTeamPower(vector<character> team);
     vector<character> friendlyTeam;
     vector<character> enemyTeam;
+    vector<string> support;
+    vector<string> damage;
+    vector<string> tank;
 
 };
 

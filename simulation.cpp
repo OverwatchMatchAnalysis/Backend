@@ -4,6 +4,12 @@
 
 #include "simulation.h"
 
+simulation::simulation() {
+    support = {};
+    damage = {};
+    tank = {};
+}
+
 void simulation::inputFriendly(character c) {
     if (checkRole(c, this->friendlyTeam)) {
         this->friendlyTeam.push_back(c);
@@ -43,5 +49,10 @@ void simulation::printTeams() {
 }
 
 void simulation::calculateBestCharacter() {
-
+    /*for (int i = 0; i < )
+    double friendlyTeamScore = 0;
+    for (int i = 0; i < friendlyTeam.size(); i++) {
+        friendlyTeamScore += friendlyTeam[i].getFriendlyMatchup()
+    }
+    character f1 = friendlyTeam[i]*/
 }

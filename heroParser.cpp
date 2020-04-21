@@ -8,26 +8,31 @@ using namespace std;
 
 //Line format is: name, team value, enemy value
 
-void heroParser::parseFile(string fileName, vector<characterList> &list)
-{
+void heroParser::parseFile(string fileName, vector<characterList> &list, string& name, string& role) {
     ifstream inputFile;
     inputFile.open(fileName);
-    string hero;
-    getline(inputFile, hero); //Get name of hero
     string line, lineItem;
     vector<string> row;
+    getline(inputFile, line); //Get name of hero
+    seperateCSVLine(line, row);
+    name = row[0];
+    role = row[1];
     while(!inputFile.eof())
     {
         line.clear(); //Clear line string and row vector so no chance of error
         row.clear();
         getline(inputFile, line); //Read in a row
-        stringstream s(line);
-        while(getline(s, lineItem, ',')) //Separate each item in the line and add to row vector
-        {
-            row.push_back(lineItem);
-        }
-
+        seperateCSVLine(line, row);
         characterList tempList(row[0], stod(row[1]), stod(row[2]));
         list.push_back(tempList);
+    }
+}
+
+void heroParser::seperateCSVLine(string line, vector<string> &row) {
+    string lineItem;
+    stringstream s(line);
+    while(getline(s, lineItem, ',')) //Separate each item in the line and add to row vector
+    {
+        row.push_back(lineItem);
     }
 }

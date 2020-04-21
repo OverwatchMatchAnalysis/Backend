@@ -13,8 +13,11 @@ using namespace std;
 
 class heroParser
 {
-    public:
-        void parseFile(string fileName, vector<characterList>& list);
+public:
+    void parseFile(string fileName, vector<characterList>& list, string& name, string& role);
+
+private:
+    static void seperateCSVLine(string line, vector<string>& row);
 };
 
 
