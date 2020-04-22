@@ -30,19 +30,9 @@ vector
 characterList.h
 /cygdrive/e/School/CS 4345/Project/Backend/characterList.h
 
-/cygdrive/e/School/CS 4345/Project/Backend/main.cpp
-iostream
--
-vector
--
+/cygdrive/e/School/CS 4345/Project/Backend/simulation.cpp
 simulation.h
 /cygdrive/e/School/CS 4345/Project/Backend/simulation.h
-character.h
-/cygdrive/e/School/CS 4345/Project/Backend/character.h
-characterList.h
-/cygdrive/e/School/CS 4345/Project/Backend/characterList.h
-heroParser.h
-/cygdrive/e/School/CS 4345/Project/Backend/heroParser.h
 
 /cygdrive/e/School/CS 4345/Project/Backend/simulation.h
 vector

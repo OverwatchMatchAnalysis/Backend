@@ -10,8 +10,8 @@ using namespace std;
 
 int main() {
     simulation s;
-    vector<string> friendlyTeam = {"Tracer", "Ashe", "Bastion", "Orisa", "Mercy"};
-    vector<string> enemyTeam = {"Reaper", "Torbjorn", "Widowmaker", "Zarya", "Doomfist", "Roadhog"};
+    vector<string> friendlyTeam = {"DVa", "Reinhardt", "Torbjorn", "Ana", "Moira"};
+    vector<string> enemyTeam = {"Genji", "Winston", "Widowmaker", "Zenyatta", "Brigitte", "Roadhog"};
     for (int i = 0; i < friendlyTeam.size(); i++) {
         s.inputFriendly(friendlyTeam[i]);
     }
@@ -19,5 +19,10 @@ int main() {
         s.inputEnemy(enemyTeam[i]);
     }
     s.printTeams();
+    vector<string> bestHero = s.calculateBestCharacter("damage");
+    cout << "Best matchup: ";
+    for (int i = 0; i < bestHero.size(); i++) {
+        cout << bestHero[i] << " ";
+    }
     return 0;
 }
