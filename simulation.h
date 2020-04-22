@@ -8,24 +8,20 @@
 #include <vector>
 #include <iostream>
 #include "character.h"
+#include "heroParser.h"
 
 class simulation {
 public:
     simulation();
-    void inputFriendly(character);
-    void inputEnemy(character);
+    void inputFriendly(string);
+    void inputEnemy(string);
     void calculateBestCharacter();
-    bool checkRole(character c, vector<character> list);
     void printTeams();
 
 private:
     float calulateTeamPower(vector<character> team);
     vector<character> friendlyTeam;
     vector<character> enemyTeam;
-    vector<string> support;
-    vector<string> damage;
-    vector<string> tank;
-
 };
 
 

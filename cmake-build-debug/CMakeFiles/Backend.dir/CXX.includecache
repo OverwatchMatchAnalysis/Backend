@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-E:/School/CS 4345/Project/Backend/character.h
+/cygdrive/e/School/CS 4345/Project/Backend/character.h
 vector
 -
 String
@@ -14,35 +14,43 @@ String
 iostream
 -
 characterList.h
-E:/School/CS 4345/Project/Backend/characterList.h
+/cygdrive/e/School/CS 4345/Project/Backend/characterList.h
 
-E:/School/CS 4345/Project/Backend/characterList.h
+/cygdrive/e/School/CS 4345/Project/Backend/characterList.h
 string
 -
 vector
 -
 
-E:/School/CS 4345/Project/Backend/main.cpp
-iostream
--
+/cygdrive/e/School/CS 4345/Project/Backend/heroParser.h
 fstream
 -
 vector
 -
-sstream
+characterList.h
+/cygdrive/e/School/CS 4345/Project/Backend/characterList.h
+
+/cygdrive/e/School/CS 4345/Project/Backend/main.cpp
+iostream
+-
+vector
 -
 simulation.h
-E:/School/CS 4345/Project/Backend/simulation.h
+/cygdrive/e/School/CS 4345/Project/Backend/simulation.h
 character.h
-E:/School/CS 4345/Project/Backend/character.h
+/cygdrive/e/School/CS 4345/Project/Backend/character.h
 characterList.h
-E:/School/CS 4345/Project/Backend/characterList.h
+/cygdrive/e/School/CS 4345/Project/Backend/characterList.h
+heroParser.h
+/cygdrive/e/School/CS 4345/Project/Backend/heroParser.h
 
-E:/School/CS 4345/Project/Backend/simulation.h
+/cygdrive/e/School/CS 4345/Project/Backend/simulation.h
 vector
 -
 iostream
 -
 character.h
-E:/School/CS 4345/Project/Backend/character.h
+/cygdrive/e/School/CS 4345/Project/Backend/character.h
+heroParser.h
+/cygdrive/e/School/CS 4345/Project/Backend/heroParser.h
 

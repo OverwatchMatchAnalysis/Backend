@@ -1,13 +1,12 @@
 file(REMOVE_RECURSE
   "Backend.exe"
-  "Backend.exe.manifest"
-  "Backend.lib"
   "Backend.pdb"
-  "CMakeFiles/Backend.dir/character.cpp.obj"
-  "CMakeFiles/Backend.dir/characterList.cpp.obj"
-  "CMakeFiles/Backend.dir/heroParser.cpp.obj"
-  "CMakeFiles/Backend.dir/main.cpp.obj"
-  "CMakeFiles/Backend.dir/simulation.cpp.obj"
+  "CMakeFiles/Backend.dir/character.cpp.o"
+  "CMakeFiles/Backend.dir/characterList.cpp.o"
+  "CMakeFiles/Backend.dir/heroParser.cpp.o"
+  "CMakeFiles/Backend.dir/main.cpp.o"
+  "CMakeFiles/Backend.dir/simulation.cpp.o"
+  "libBackend.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

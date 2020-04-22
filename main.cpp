@@ -5,20 +5,19 @@
 #include <iostream>
 #include <vector>
 #include "simulation.h"
-#include "character.h"
-#include "characterList.h"
-#include "heroParser.h"
 
 using namespace std;
 
 int main() {
     simulation s;
-    heroParser parser;
-    vector<characterList> tracerList;
-    string role, name = "";
-    parser.parseFile("..//heroData//Tracer.csv", tracerList, name, role);
-    character tracer(name, role, tracerList);
-    s.inputFriendly(tracer);
+    vector<string> friendlyTeam = {"Tracer", "Ashe", "Bastion", "Orisa", "Mercy"};
+    vector<string> enemyTeam = {"Reaper", "Torbjorn", "Widowmaker", "Zarya", "Doomfist", "Roadhog"};
+    for (int i = 0; i < friendlyTeam.size(); i++) {
+        s.inputFriendly(friendlyTeam[i]);
+    }
+    for (int i = 0; i < enemyTeam.size(); i++) {
+        s.inputEnemy(enemyTeam[i]);
+    }
     s.printTeams();
     return 0;
 }

@@ -5,46 +5,46 @@
 #include "simulation.h"
 
 simulation::simulation() {
-    support = {};
-    damage = {};
-    tank = {};
+
 }
 
-void simulation::inputFriendly(character c) {
-    if (checkRole(c, this->friendlyTeam)) {
-        this->friendlyTeam.push_back(c);
-    } else {
-        cerr << "Could not add character. Too many " << c.role << " on the friendly team already";
-    }
+void simulation::inputFriendly(string name) {
+    heroParser parser;
+    string path = "..//heroData//" + name + ".csv";
+    string role;
+    vector<characterList> playerList;
+    parser.parseFile(path, playerList, name, role);
+    character newPlayer(name, role, playerList);
+    this->friendlyTeam.push_back(newPlayer);
 }
 
-void simulation::inputEnemy(character c) {
-    if (checkRole(c, this->enemyTeam)) {
-        this->enemyTeam.push_back(c);
-    } else {
-        cerr << "Could not add character. Too many " << c.role << " on the enemy team already";
-    }}
-
-bool simulation::checkRole(character c, vector<character> list) {
-    int count = 0;
-    for (int i = 0; i < list.size(); i++) {
-        if (list[i].role == c.role) {
-            count++;
-        }
-        if (count > 2)
-            return false;
-    }
-    return true;
+void simulation::inputEnemy(string name) {
+    heroParser parser;
+    string path = "..//heroData//" + name + ".csv";
+    string role;
+    vector<characterList> playerList;
+    parser.parseFile(path, playerList, name, role);
+    character newPlayer(name, role, playerList);
+    this->enemyTeam.push_back(newPlayer);
 }
 
 void simulation::printTeams() {
-    cout << "Friendly Team: ";
-    for (int i = 0; i < this->friendlyTeam.size(); i++)
-        cout << this->friendlyTeam[i].name << " ,";
+    cout << "\nFriendly Team: ";
+    for (int i = 0; i < this->friendlyTeam.size(); i++){
+        if (i == this->friendlyTeam.size()-1) {
+            cout << this->friendlyTeam[i].name << endl;
+        } else {
+            cout << this->friendlyTeam[i].name << ", ";
+        }
+    }
 
     cout << "\nEnemy Team: ";
     for (int i = 0; i < this->enemyTeam.size(); i++)
-        cout << this->enemyTeam[i].name << " ,";
+        if (i == this->enemyTeam.size()-1) {
+            cout << this->enemyTeam[i].name << endl;
+        } else {
+            cout << this->enemyTeam[i].name << ", ";
+        }
     cout << endl;
 }
 
