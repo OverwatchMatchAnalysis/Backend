@@ -10,8 +10,8 @@ using namespace std;
 
 int main() {
     simulation s;
-    vector<string> friendlyTeam = {"DVa", "Reinhardt", "Torbjorn", "Ana", "Moira"};
-    vector<string> enemyTeam = {"Genji", "Winston", "Widowmaker", "Zenyatta", "Brigitte", "Roadhog"};
+    vector<string> friendlyTeam = {"DVa", "Mei", "Orisa", "Moira", "Zenyatta"};
+    vector<string> enemyTeam = {"Ashe", "Genji", "Reinhardt", "Winston", "Mercy", "Symmetra"};
     for (int i = 0; i < friendlyTeam.size(); i++) {
         s.inputFriendly(friendlyTeam[i]);
     }
