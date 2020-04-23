@@ -92,6 +92,7 @@ double simulation::getFriendlyScore(character c) {
     for (int i = 0; i < this->friendlyTeam.size(); i++) {
         teamScore += c.getFriendlyMatchup(this->friendlyTeam[i].name);
     }
+    return teamScore;
 }
 
 double simulation::getEnemyScore(character c) {
@@ -99,6 +100,7 @@ double simulation::getEnemyScore(character c) {
     for (int i = 0; i < this->enemyTeam.size(); i++) {
         teamScore += c.getEnemyMatchup(this->enemyTeam[i].name);
     }
+    return teamScore;
 }
 
 vector<string> simulation::calculateBestCharacter(string role) {
